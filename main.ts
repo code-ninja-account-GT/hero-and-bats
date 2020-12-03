@@ -1,3 +1,5 @@
+
+// gabe's game
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
     game.over(true)
 })
